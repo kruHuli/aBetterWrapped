@@ -1,0 +1,77 @@
+Below we outline the requirements for your class project proposal. All proposal work is due March 29, 2023. Your project proposal is your opportunity to get feedback from your instructors on your plans. Remember you can always resubmit and improve your proposal after getting our feedback. 
+A little background: the goal of this class project is to complete an end-to-end Machine Learning project, and an experimental design of how you might test a hypothesis conceived from your work. We also expect you to demonstrate a strong understanding of the data you use for this project. You should choose a subject matter area that is of strong personal interest to you.
+
+
+Your proposal should include the following 4 things: 
+1) A four to five page single-spaced document containing the following: 
+	(a) an introduction to your project at a high level, including a description of the goal and whether you’ll be doing supervised, unsupervised, or both types of 	learning. Please also include a paragraph that states why the subject matter you are centering the project around is of personal interest to you.
+	(b) the approach you plan to take, specifically addressing the three first steps of framing: 
+problem framing - clearly state the problem your project is addressing, and how it relates to a generating process, data, and an objective function
+data framing - determine what features you have access to, and which you want to use for the task; identify what data you have labeled, and how to organize it relative to your observations. We suggest you use your first homework for inspiration here.
+Outline your plan for training your model.
+objective framing - determine how your target can be summarized by a performance metric, and how to relate the performance metric evaluation to your training plan
+
+
+	(c) the methodology you will use, including: evaluation metrics you will employ, and experimental design. The proposal section covering your approach must also include 
+a one to two page detailed description of how you plan to obtain and clean the needed data, including the location and amount of data available; and
+identify six research papers related to the topic of your choice, and include a thorough review of three that are most closely related to your project; and 
+Recommend a baseline model for your prediction task, and formulate a testable hypothesis about how your model/algorithm/process will outperform this baseline
+
+
+2) A summary of your data, including the types and ranges of each attribute; an accompanying .csv file, and examples of a few actual instances that have attribute values representative of your data. If you do not yet have real data, give sample instances that are representative of what your data will be.
+3) Demonstrate your understanding of the causal data generating process you’ve sampled from. You have some options in terms of how to do this. We strongly recommend you write out a nonparametric structural equation model and draw a DAG using dagitty.net. If your goal is prediction or classification, make sure to label your target as the “outcome”. 
+Write out an NPSEM. Don’t forget to include important unmeasured (latent) variables!
+Draw a DAG using dagitty.net.
+For each “arrow”,  describe at a high level the nature of the relationship you expect to see. Why do you believe one variable causes another and not the other way around? What is the nature of the relationship? Linear? Loglinear?
+Please also describe important assumptions you are making about arrows that you believe do NOT exist. How confident are you in these assumptions?
+4) In applied settings, models are almost always used to support decisions. For example, a prediction model can be used for logistics planning – “How much of this thing should we buy given the demand we’ve forecast?” Evaluating whether a prediction model is useful for this applied purpose is a separate task from evaluating pure prediction performance. For your final project, you will be asked to design (but not implement) a full-fledged experiment to test the efficacy of your model in an applied setting. To get you started down that road, for this proposal please provide the following:
+Describe in moderate detail one way your proposed model can be used in practice to improve decision-making.
+Formulate a precise, testable causal question and accompanying hypothesis that will inform the decision of whether or not you should actually “roll out” your model in the applied setting you have proposed. Remember to specify the following:
+clear outcome of interest and unit of observation
+target population
+a description all experiment conditions to be tested
+Specify a unit of randomization and explain why you think this is a reasonable choice. 
+
+
+5) A slide deck or sequence of images summarizing and presenting the above. (easiest is a deck on google slides).
+
+
+6) A 5-7min video recording 1, 2 and 3 above.
+
+
+It is possible to work with 1 or 2 others on your project in a team no more than 3 people in size.  In this case, more will be expected in terms of total number of hours you put in, amount accomplished, etc. 
+ 
+As you develop your project proposals, please keep in mind that your project must be novel in the sense that your project involves either 1) the development of a novel approach/algorithm to a data analytics/machine learning problem, 2) the use of existing machine learning algorithms in a novel application, or 3) the question/dataset is a particularly novel application of machine learning.
+A note on the word “novel”: our standard for novel is a soft one. You do not have to break new scientific ground! We do expect your project to be substantive. It should not be based on a kaggle exercise. Neither should it rely on data pulled from kaggle.
+As part of your project, students must identify six research papers related to the topic of your choice, and include a thorough review of three that are most closely related to your project.  
+
+
+Some project ideas from past semesters: 
+Co-occurrence analysis to identify associated phrases in a series of books vs. general english literature
+Predicting a Twitch streamer’s income
+Understanding the meaning of ancient runes
+Used car purchase (predict price) 
+Market-basket analysis for health product 
+Ebay price prediction 
+Corrosion detection in airplane wings 
+Predicting college admissions 
+Hardware design of IBL 
+Music system purchase prediction 
+Counter-strike player ranking 
+Emerging trend detection 
+NBA best-player combination (within a team) 
+Predict bridge repair based on sensor data 
+Selecting team for fantasy ice hockey 
+Impact of noisy data on machine learning 
+Predict products for computer upgrade 
+Predict soot-blower operation 
+Microarray gene similarity clustering 
+Learning blackjack 
+Predicting alumni giving 
+Clustering web pages 
+Author prediction for software 
+Predicting purchase behavior on-line 
+Network intrusion detection 
+Mass spectrometry classification in protein identification 
+Pattern detection in web taxonomies/ontologies 
+Bid acceptance prediction for specialty steel product sales
